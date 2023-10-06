@@ -1,0 +1,51 @@
+.transfer-form {
+  position: relative;
+  background-color: #fff;
+  min-height: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 60%;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure it's above other content */
+}
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.transaction-status {
+  padding: 10px;
+
+  color: #3c763d; /* Text color for success */
+}
+
+.error-message {
+  color: red; /* Red text color for errors */
+  font-weight: bold; /* Bold text for errors */
+}
