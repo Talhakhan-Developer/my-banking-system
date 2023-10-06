@@ -80,7 +80,6 @@ Before you begin, ensure you have met the following requirements:
 - client/: Frontend code.
 - routes/: Express.js route definitions.
 - models/: Mongoose data models.
-- controllers/: Controllers for handling API requests.
 - public/: Static assets.
 - src/: React components and application logic.
 
