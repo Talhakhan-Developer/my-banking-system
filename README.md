@@ -49,29 +49,54 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/your-username/my-banking-system.git
+   ```
 
 2. Navigate to the project directory:
+   ```
    cd my-banking-system
-   
-4. Install server dependencies:
+   ```   
+3. Install server dependencies:
+   ```
    cd server
+   ```
+   ```
    npm install
+   ```
    
-5. Install client dependencies:
+4. Install client dependencies:
+   ```
    cd ../client
+   ```
+   ```
    npm install
+   ```
 
 ### Usage
 
 1. Start the server:
+   ```
    cd ../server
+   ```
+   ```
    npm start
+   ```
 
 2. Start the client:
+   ```
    cd ../client
+   ```
+   ```
    npm start
+   ```
+3. Start the Backend:
+   ```
+   cd ../server
+   ```
+   ```
+   node app.js
+   ``` 
 
-3. Open your web browser and access the application at 'http://localhost:3000'.
+4. Open your web browser and access the application at 'http://localhost:3000'.
 
 
 ### Project Structure
