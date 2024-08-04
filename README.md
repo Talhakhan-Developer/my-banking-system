@@ -78,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
    cd ../server
    ```
    ```
-   npm start
+   node app.js
    ```
 
 2. Start the client:
@@ -88,15 +88,8 @@ Before you begin, ensure you have met the following requirements:
    ```
    npm start
    ```
-3. Start the Backend:
-   ```
-   cd ../server
-   ```
-   ```
-   node app.js
-   ``` 
 
-4. Open your web browser and access the application at 'http://localhost:3000'.
+3. Open your web browser and access the application at 'http://localhost:3000'.
 
 
 ### Project Structure
